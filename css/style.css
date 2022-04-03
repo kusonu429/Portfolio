@@ -91,11 +91,18 @@ header nav ul li a {
 
 header nav ul li .active {
   color: #00b87b;
+ 
 }
 
 header nav ul li a:hover {
   color: #00b87b;
+
 }
+
+
+
+
+
 
 header nav .nav-icon{
   display: none;
@@ -189,12 +196,7 @@ ul {
   height: 100%;
 }
 
-/* .container .leftfixed .img-areas figure img {
-  width: 80%;
-  border-radius: 50%;
-  margin-top: 50px;
-  border: 5px solid #00b87b;
-} */
+
 
 .container .leftfixed .social-icon {
   width: 100%;
@@ -245,7 +247,6 @@ ul {
   font-size: 0.8rem;
   font-weight: 300;
   padding: 15px 30px 15px 30px;
-  /* border: 1px solid darkgray; */
   text-decoration: none;
   background: transparent;
   width: 49%;
@@ -268,7 +269,7 @@ ul {
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
   padding: 10px;
   position: relative;
-  /* z-index: -100; */
+
 }
 
 /* ------------------------- about section starts here ------------------------  */
@@ -510,7 +511,6 @@ ul {
   text-align: center;
   font-size: 1rem;
   margin: 25px 0;
-  /* color: #00b87b; */
 }
 
 .right .Services .service .ser p {
@@ -548,14 +548,14 @@ ul {
 }
 .right .Portfolio .projects .web figcaption a {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   color: #eeeeee;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 .right .Portfolio .projects .web figcaption a:hover {
-  color: #fff;
+  color: #00b87b;
 }
 
 /* ------------------------- Portfolio section ends here ------------------------ */
@@ -722,14 +722,12 @@ ul {
 
   .container .leftfixed .img-areas {
     width: 48.5%;
-    /* background-color: red; */
-  }
+     }
 
   .container .leftfixed .img-areas img {
     object-fit: cover;
     width: 70%;
     border: 5px solid #00b87b;
-    /* height: 90%; */
     margin: 1rem 0;
     border-radius: 50%;
   }
@@ -737,7 +735,7 @@ ul {
   .container .leftfixed .social-icon {
     width: 48.5%;
     margin-top: 0px;
-    /* background-color: grey; */
+  
   }
 
   .container .leftfixed .social-icon figcaption {
@@ -761,6 +759,8 @@ ul {
   .right .Services .service .ser p {
     font-size: 0.9rem;
     padding: 10px;
+
+}
 
 }
 
@@ -870,7 +870,6 @@ ul {
 
   .right .Portfolio .projects .web img {
     width: 100%;
-    /* height: 35vh; */
     padding-bottom: 1rem;
 }
 
