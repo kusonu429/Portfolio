@@ -351,6 +351,12 @@ ul {
   color: #00b87b;
 }
 
+.personal-details .details h1  a{
+  color: #eeeeee;
+  text-decoration: none;
+
+}
+
 /* ------------------------- about section ends here ------------------------ */
 
 /* ------------------------- skills section starts here ------------------------ */
