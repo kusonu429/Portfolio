@@ -208,7 +208,7 @@ ul {
   margin-top: 3rem;
 }
 
-.container .leftfixed .social-icon figcaption {
+.container .leftfixed .social-icon h2 {
   color: #00b87b;
   font-size: 2rem;
   font-weight: bold;
@@ -224,7 +224,26 @@ ul {
   color: #fff;
   font-weight: 400;
   font-size: 1.2rem;
-  padding-bottom: 4rem;
+  width: 0ch;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: slide 4s   steps(21) infinite alternate;
+  border-right: 1px solid #eee;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+
+
+@keyframes slide {
+    0%{
+      width: 0ch;
+    }
+
+    50%{
+      width: 21ch;
+    }
+
 }
 
 .container .leftfixed .social-icon span {
@@ -581,8 +600,8 @@ ul {
 .projects .web .img-overlay{
   width: 100%;
   height: 100%;
-  /* background: rgba(19, 158, 77, 0.7); */
   background: rgba(0, 0, 0, 0.6);
+  background: linear-gradient(rgba(8, 12, 24, 0.9), rgba(15, 23, 43, 0.9)); 
   position: absolute;
   top: 0;
   left: 0;
@@ -673,7 +692,7 @@ ul {
   border: 0;
   color: #eeeeee;
   padding-left: 0.8rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .right .Contact form .name_email .name input::placeholder,
